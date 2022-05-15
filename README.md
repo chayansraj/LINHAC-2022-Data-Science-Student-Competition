@@ -60,16 +60,34 @@ Ensemble learning often proves to be performing superior to any one machine lear
 <br/>
 
 ## Result
-Post optimizing the hyper parameter space, we evaluated our model on test data and achieved an accuracy of 87% which is ~3% higher than simply using residual neural networks. Attempt to interpret the feature influence on model output using SHAP gives an insight to important features in further analysis.
 
-Importance of each feature
+The evaluation of the models is done with the evaluation metrics accuracy, precision, recall and F1-score. In our case, we have binary classification where accuracy shows the total correct classification out of total values, precision and recall capture the limitations of accuracy and considers the curse of imbalanced class labels. Finally, F1-score encapsulates and keeps the the limitations of accuracy at bay and provides the best metric for our classifier which ranges from 0 to 1, higher the value, better the predictions.
 
 <p align="center">
-  <img width="700" height="500" src="https://user-images.githubusercontent.com/22219089/168466954-596abc34-bb64-4e59-b4ad-67ca561246d1.png">
+  <img width="300" height="150" src="https://user-images.githubusercontent.com/22219089/168467136-faccb5c8-007e-434b-bca1-6c782940c15d.png">
+</p>
+
+with final F1- Score of 0.9076
+
+<br/>
+
+Post optimizing the hyper parameter space, we evaluated our model on test data and achieved an accuracy of 87% which is ~3% higher than simply using residual neural networks. Attempt to interpret the feature influence on model output using SHAP gives an insight to important features in further analysis.
+
+Importance of each feature: To get an overview of which features are most important for a model we can plot the SHAP values of every feature for every sample. 
+
+<p align="center">
+  <img width="600" height="400" src="https://user-images.githubusercontent.com/22219089/168466954-596abc34-bb64-4e59-b4ad-67ca561246d1.png">
+</p>
+
+<br/>
+
+Contribution of each feature: The above explanation shows features each contributing to push the model output from the base value (the average model output over the training dataset we passed) to the model output. Features pushing the prediction higher are shown in red, those pushing the prediction lower are in blue. 
+
+<p align="center">
+  <img width="600" height="400" src="https://user-images.githubusercontent.com/22219089/168467071-5973fa3b-8bc2-4234-825b-fdf1523a0252.png">
 </p>
 
 
-
-
+# Thanks! 
 
 
