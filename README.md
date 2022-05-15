@@ -34,7 +34,7 @@ The data was provided by Sportlogiq with permission of SHL, the Swedish Hockey L
 Firstly, an exhaustive exploratory data analysis was performed using one of the ‘gameid’ e.g. 66445. It consists of match time stamps between two teams encoded as 742 and 916, where every time stamp describes the event played by any one of the players in one of teams from a certain point on the field and whether it was success-ful or not.
 
 ## Algorithms
-I have first trained an ensemble of four Residual neural networks that will loop over all the ‘gameid’ with a stride of 2. So, first ensemble works on ‘gameid’ 0 and 1, then next on 2 and 3 and so on for test and validation sets respectively. We then average the accuracy of the 4 NN ensemble models and choose the games that produced highest accuracy. This is done because neural networks are powerful algorithms and can learn complex patterns with enough data, so we are feeding our data first to this ensemble to understand the best explainable data blocks for our next ensemble step. 
+I first trained an ensemble of four Residual neural networks that will loop over all the ‘gameid’ with a stride of 2. So, first ensemble works on ‘gameid’ 0 and 1, then next on 2 and 3 and so on for test and validation sets respectively. We then average the accuracy of the 4 NN ensemble models and choose the games that produced highest accuracy. This is done because neural networks are powerful algorithms and can learn complex patterns with enough data, so we are feeding our data first to this ensemble to understand the best explainable data blocks for our next ensemble step. 
 
 <p align="center">
   <img width="400" height="200" src="https://user-images.githubusercontent.com/22219089/168466168-50fe617d-0558-42ca-9304-800a6bc4aa74.png">
