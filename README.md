@@ -1,6 +1,6 @@
 # Linköping Hockey Analytics Conference - LINHAC 2022
 <p align="center">
-  <img width="460" height="300" src="https://c.tenor.com/yTPSA6UadckAAAAd/ice-hockey-hockey.gif">
+  <img width="460" height="300" src="https://c.tenor.com/yTPSA6UadckAAAAd/ice-hockey-hockey.gif"> <h6 align = "center" > source: google </h6>
 </p>
 
 
@@ -16,7 +16,9 @@ Given the event data, generate findings/patterns related to sequences of events 
 # Temporal activity outcome prediction of players in Ice Hockey 
 <p align="center">
   <img width="300" height="100" src="https://landerapp.com/blog/wp-content/uploads/2015/08/4-inventive-inbound-marketing-ideas-to-create-leads.gif">
+  <h6 align = "center" > source: google </h6>
 </p>
+
 
 Temporal activity prediction is a challenging task in sports especially in sports like ice hockey because of its fast dynamics and interactions among the players. In this paper, we are trying to predict whether the next action of the players will be successful or not given the various parameters describing its location and other factors. Basically, it is the process of predicting if the player’s next action/move would be a success or not.
 <br/>
@@ -25,6 +27,7 @@ Temporal activity prediction is a challenging task in sports especially in sport
 The data was provided by Sportlogiq with permission of SHL, the Swedish Hockey League, representing event data from the 2020-2021 SHL season. It consists of 76041 rows and 22 features describing each game with a unique game id and time stamps. It consists of match time stamps between two teams, where every time stamp describes the event played by any one of the players in one of teams from a certain point on the field and whether it was successful or not. Keeping in mind the structure of the data, I have used a different idea of separating training, evaluation and test sets as different matches uniquely defined by their ‘gameid’. It means, if one match is used as a validation data and the other is used as testing data, then all the other matches are used as training data. This allows our model to analyze whole data space and extract complex patterns in each match. A summary dictionary is as below: 
 <p align="center">
   <img width="200" height="300" src="https://user-images.githubusercontent.com/22219089/168465951-878b1f05-0580-459c-9291-72fab1bf503a.png">
+  <h6 align = "center" > source: Author </h6>
 </p>
 
 # Methodology
@@ -38,12 +41,14 @@ I first trained an ensemble of four Residual neural networks that will loop over
 
 <p align="center">
   <img width="400" height="200" src="https://user-images.githubusercontent.com/22219089/168466168-50fe617d-0558-42ca-9304-800a6bc4aa74.png">
+  <h6 align = "center" > source: Author </h6>
 </p>
 
 Ensemble learning often proves to be performing superior to any one machine learn-ing algorithm and hence final model/algorithms chosen for this paper is again an ensemble of 4 very powerful classification algorithms, namely, K-Nearest Neighbors, Logistic Regression, Random Forests, Support Vector Machines. The structure of the setup looks like this: 
 
 <p align="center">
   <img width="700" height="500" src="https://user-images.githubusercontent.com/22219089/168466635-a6155fe0-b0e4-45ba-97c5-2ba7d27970d7.png">
+  <h6 align = "center" > source: Author </h6>
 </p>
 
 <br/>
@@ -65,6 +70,7 @@ The evaluation of the models is done with the evaluation metrics accuracy, preci
 
 <p align="center">
   <img width="300" height="150" src="https://user-images.githubusercontent.com/22219089/168467136-faccb5c8-007e-434b-bca1-6c782940c15d.png">
+  <h6 align = "center" > source: Author </h6>
 </p>
 
 with final F1- Score of 0.9076
@@ -77,6 +83,7 @@ Importance of each feature: To get an overview of which features are most import
 
 <p align="center">
   <img width="600" height="400" src="https://user-images.githubusercontent.com/22219089/168466954-596abc34-bb64-4e59-b4ad-67ca561246d1.png">
+  <h6 align = "center" > source: Author </h6>
 </p>
 
 <br/>
@@ -85,6 +92,7 @@ Contribution of each feature: The above explanation shows features each contribu
 
 <p align="center">
   <img width="600" height="400" src="https://user-images.githubusercontent.com/22219089/168467071-5973fa3b-8bc2-4234-825b-fdf1523a0252.png">
+  <h6 align = "center" > source: Author </h6>
 </p>
 
 
