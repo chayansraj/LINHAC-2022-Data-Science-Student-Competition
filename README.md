@@ -41,7 +41,7 @@ I first trained an ensemble of four Residual neural networks that will loop over
 
 <p align="center">
   <img width="400" height="200" src="https://user-images.githubusercontent.com/22219089/168466168-50fe617d-0558-42ca-9304-800a6bc4aa74.png">
-  <h6 align = "center" > source: Author </h6>
+  <h6 align = "center" > source: google </h6>
 </p>
 
 Ensemble learning often proves to be performing superior to any one machine learn-ing algorithm and hence final model/algorithms chosen for this paper is again an ensemble of 4 very powerful classification algorithms, namely, K-Nearest Neighbors, Logistic Regression, Random Forests, Support Vector Machines. The structure of the setup looks like this: 
