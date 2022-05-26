@@ -16,7 +16,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 # Temporal activity outcome prediction of players in Ice Hockey 
 <p align="center">
   <img width="300" height="100" src="https://landerapp.com/blog/wp-content/uploads/2015/08/4-inventive-inbound-marketing-ideas-to-create-leads.gif">
-  <h6 align = "center" > source: google </h6>
+  <h6 align = "center" > Source: google </h6>
 </p>
 
 
