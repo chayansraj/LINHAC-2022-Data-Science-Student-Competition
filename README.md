@@ -1,5 +1,5 @@
 # Linköping Hockey Analytics Conference - LINHAC 2022
-<p align="center">
+<p align="center"> 
   <img width="460" height="300" src="https://c.tenor.com/yTPSA6UadckAAAAd/ice-hockey-hockey.gif"> <h6 align = "center" > Source: google </h6>
   
 </p>
