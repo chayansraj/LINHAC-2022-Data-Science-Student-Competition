@@ -4,6 +4,7 @@
   
 </p>
 
+Competition Link - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/studentcompetition.html
 
 # Task
 
@@ -11,7 +12,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 <br/>
 <br/>
 
-Competition Link - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/studentcompetition.html
+
 
 ## What I did: 
 
