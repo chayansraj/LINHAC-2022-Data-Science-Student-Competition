@@ -26,7 +26,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 </p>
 
 
-Temporal activity prediction is a challenging task in sports especially in sports like ice hockey because of its fast dynamics and interactions among the players. In this paper, we are trying to predict whether the next action of the players will be successful or not given the various parameters describing its location and other factors. Basically, it is the process of predicting if the player’s next action/move would be a success or not.
+Temporal activity prediction is a challenging task in sports especially in sports like ice hockey because of its fast dynamics and interactions among the players. In this paper, I am trying to predict whether the next action of the players will be successful or not given the various parameters describing its location and other factors. Basically, it is the process of predicting if the player’s next action/move would be a success or not.
 <br/>
 
 # Data
