@@ -108,5 +108,5 @@ Contribution of each feature: The above explanation shows features each contribu
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22219089/187165073-1e3d1227-1583-43ee-ae4c-0d6fac9d7d7e.png">
-  <h6 align = "center" > Source: google </h6>
+  <h6 align = "center" > Source: author </h6>
 </p>
