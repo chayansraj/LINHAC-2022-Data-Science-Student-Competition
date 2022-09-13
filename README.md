@@ -1,14 +1,19 @@
 # Linköping Hockey Analytics Conference - LINHAC 2022
-<p align="center">
+<p align="center"> 
   <img width="460" height="300" src="https://c.tenor.com/yTPSA6UadckAAAAd/ice-hockey-hockey.gif"> <h6 align = "center" > Source: google </h6>
   
 </p>
 
 
+
+Competition Link - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/studentcompetition.html
+
 # Task
+
 Given the event data, generate findings/patterns related to sequences of events leading up to a particular outcome. You can choose the kind of outcome. For instance, find characteristics of sequences of events leading to, e.g., a goal or a successful zone entry or a shot.<br/> 
 <br/>
 <br/>
+
 
 
 ## What I did: 
@@ -21,7 +26,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 </p>
 
 
-Temporal activity prediction is a challenging task in sports especially in sports like ice hockey because of its fast dynamics and interactions among the players. In this paper, we are trying to predict whether the next action of the players will be successful or not given the various parameters describing its location and other factors. Basically, it is the process of predicting if the player’s next action/move would be a success or not.
+Temporal activity prediction is a challenging task in sports especially in sports like ice hockey because of its fast dynamics and interactions among the players. In this paper, I am trying to predict whether the next action of the players will be successful or not given the various parameters describing its location and other factors. Basically, it is the process of predicting if the player’s next action/move would be a success or not.
 <br/>
 
 # Data
@@ -99,4 +104,9 @@ Contribution of each feature: The above explanation shows features each contribu
 
 # Thanks! 
 
+## Ps: Reached finals - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/program.html  :heart_eyes:
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22219089/187165073-1e3d1227-1583-43ee-ae4c-0d6fac9d7d7e.png">
+  <h6 align = "center" > Source: Author </h6>
+</p>
