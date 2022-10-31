@@ -21,7 +21,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 
 # Temporal activity outcome prediction of players in Ice Hockey 
 <p align="center">
-  <img width="400" height="300" src="https://user-images.githubusercontent.com/22219089/198964949-efbb30cc-0713-4d64-8722-608eb786e3c0.png">
+  <img width="300" height="250" src="https://user-images.githubusercontent.com/22219089/198964949-efbb30cc-0713-4d64-8722-608eb786e3c0.png">
   <h6 align = "center" > Source: google </h6>
 </p>
 
