@@ -111,4 +111,4 @@ Contribution of each feature: The above explanation shows features each contribu
   <h6 align = "center" > Source: Author </h6>
 </p>
 
-## Pps: Published papaer - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/LINHAC2022-proceedings-preprint.pdf
+## Pps: Published paper - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/LINHAC2022-proceedings-preprint.pdf
