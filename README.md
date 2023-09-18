@@ -16,7 +16,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 
 
 
-## What I did: 
+## My idea: 
 
 
 # Temporal activity outcome prediction of players in Ice Hockey 
