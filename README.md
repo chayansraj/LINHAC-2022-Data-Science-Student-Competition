@@ -15,6 +15,7 @@ Given the event data, generate findings/patterns related to sequences of events 
 
 
 
+
 ## My idea: 
 
 
