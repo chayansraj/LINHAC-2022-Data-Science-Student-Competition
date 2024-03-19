@@ -6,9 +6,6 @@
 
 Competition Link - https://www.ida.liu.se/research/sportsanalytics/LINHAC/LINHAC22/studentcompetition.html
 
-
-
-
 # Task
 
 Given the event data, generate findings/patterns related to sequences of events leading up to a particular outcome. You can choose the kind of outcome. For instance, find characteristics of sequences of events leading to, e.g., a goal or a successful zone entry or a shot.<br/> 
