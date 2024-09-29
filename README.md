@@ -82,9 +82,9 @@ with final F1- Score of 0.85
 
 <br/>
 
-Post optimizing the hyperparameter space, we evaluated our model on test data and achieved a weighted average F1 score of 0.85 which is ~3% higher than simply using residual neural networks. Attempting to interpret the feature influence on model output using SHAP gives an insight into important features in further analysis.
+Post optimizing the hyperparameter space, we evaluated our model on test data and achieved a weighted average F1 score of 0.85 which is ~3% higher than simply using residual neural networks. Attempting to interpret the feature influence on model output using SHAP gives an insight into important features for further analysis.
 
-Importance of each feature: To get an overview of which features are most important for a model we can plot the SHAP values of every feature for every sample. 
+Importance of each feature: To get an overview of which features are important for a model we can plot the SHAP values of every feature for every sample. 
 
 <p align="center">
   <img width="600" height="400" src="https://user-images.githubusercontent.com/22219089/168466954-596abc34-bb64-4e59-b4ad-67ca561246d1.png">
