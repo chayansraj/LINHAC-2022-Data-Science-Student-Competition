@@ -71,7 +71,7 @@ Ensemble learning often proves to be performing superior to any one machine lear
 
 ## Result
 
-The evaluation of the models is done with the evaluation metrics accuracy, precision, recall and F1-score. In our case, we have binary classification where accuracy shows the total correct classification out of total values, precision and recall capture the limitations of accuracy and considers the curse of imbalanced class labels. Finally, F1-score encapsulates and keeps the the limitations of accuracy at bay and provides the best metric for our classifier which ranges from 0 to 1, higher the value, better the predictions.
+The evaluation of the models is done with the evaluation metrics accuracy, precision, recall and F1-score. In our case, we have binary classification where accuracy shows the total correct classification out of total values, precision and recall capture the limitations of accuracy and considers the curse of imbalanced class labels. Finally, F1-score encapsulates and keeps the limitations of accuracy at bay and provides the best metric for our classifier which ranges from 0 to 1, higher the value, better the prediction.
 
 <p align="center">
   <img width="300" height="150" src="https://user-images.githubusercontent.com/22219089/168467136-faccb5c8-007e-434b-bca1-6c782940c15d.png">
